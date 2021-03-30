@@ -1,0 +1,7 @@
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\bin\Debug\DS And Algo.exe.config
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\bin\Debug\DS And Algo.exe
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\bin\Debug\DS And Algo.pdb
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.csprojAssemblyReference.cache
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.csproj.CoreCompileInputs.cache
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.exe
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.pdb
