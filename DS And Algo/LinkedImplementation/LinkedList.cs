@@ -206,5 +206,65 @@ namespace DSA.LinkedImplementation
             }
             return str.ToString();
         }
+
+        /// <summary>
+        /// To reverse the linked list
+        /// </summary>
+        public void Reverse()
+        {
+            if (this.IsEmpty()) return;
+
+            var previous = First;
+            var current = First.Next;
+
+            while (current != null)
+            {
+                var next = current.Next;
+                current.Next = previous;
+                previous = current;
+                current = next;
+            }
+
+            Last = First;
+            Last.Next = null;
+            First = previous;
+        }
+
+        /// <summary>
+        /// To Print the Kth node from last
+        /// </summary>
+        /// <param name="k"></param>
+        /// <returns></returns>
+        public int KthNodeFromEnd(int k)
+        {
+            if (this.IsEmpty()) throw new EntryPointNotFoundException();
+
+            var a = First;
+            var b = First;
+            for (int i = 0; i < k - 1; i++)
+            {
+                b = b.Next;
+                if (b == null) throw new ArgumentOutOfRangeException();
+            }
+            while (b != Last)
+            {
+                a = a.Next;
+                b = b.Next;
+            }
+            return a.Value;
+        }
+
+        public int FindMiddleOfLinkedList()
+        {
+            //  [10,20,30,40,50,60,70]
+            var current = First;
+            var middle = First;
+            while (current!=Last && current.Next != Last)
+            {
+                current = current.Next.Next;
+                middle = middle.Next;
+            }
+            return middle.Value;
+        }
     }
 }

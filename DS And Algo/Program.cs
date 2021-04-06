@@ -1,4 +1,6 @@
-﻿using DSA.StackImplementationUsingArray;
+﻿using DS_And_Algo.StackUsingLinkedList;
+using DSA.LinkedImplementation;
+using DSA.StackImplementationUsingArray;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,18 @@ namespace DS_And_Algo
     {
         static void Main(string[] args)
         {
-            var stack = new StackArray(5);
-            var p = stack.Peek();
-            Console.WriteLine(p);
+            var linkedList = new LinkedList();
+
+            linkedList.AddLast(50);
+            linkedList.AddLast(60);
+            linkedList.AddLast(70);
+            linkedList.AddLast(80);
+            linkedList.AddLast(90);
+            linkedList.AddLast(100);
+            
+            linkedList.Print();
+            Console.WriteLine(linkedList.FindMiddleOfLinkedList());
+
 
             Console.ReadKey();
         }
