@@ -5,3 +5,8 @@ E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And 
 E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.csproj.CoreCompileInputs.cache
 E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.exe
 E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.pdb
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\bin\Debug\Newtonsoft.Json.dll
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\bin\Debug\System.Net.Http.Formatting.dll
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\bin\Debug\Newtonsoft.Json.xml
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\bin\Debug\System.Net.Http.Formatting.xml
+E:\Mindfire Training\Data-Structure-and-Algorithms\DS And Algo\obj\Debug\DS And Algo.csproj.CopyComplete
